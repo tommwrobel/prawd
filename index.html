@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/style.css?v=1.0">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Wariant 1</h1>
+
+        <label for="pZA">Prawd. prognozy A</label>
+        <input id="pZA" type="text" onFocusOut="update(this)">
+
+        <label for="pZA">Prawd. prognozy B</label>
+        <input id="pZB" type="text">
+
+        <label for="pZA">Prawd. wystąpienia A gdy prognoza A</label>
+        <input id="pAA" type="text">
+
+        <label for="pZA">Prawd. wystąpienia B gdy prognoza B</label>
+        <input id="pBB" type="text">
+
+        <button onClick="result();">Oblicz</button>
+
+        <textarea id="result" rows="3"></textarea>
+    </div>
+
+    <div class="container">
+
+        <h1>Wariant 2</h1>
+
+        <label for="pA">Prawd. A</label>
+        <input id="pA" type="text" onFocusOut="update2(this)">
+
+        <label for="pB">Prawd. B</label>
+        <input id="pB" type="text">
+
+        <label for="pZA">Prawd. wystąpienia A gdy prognoza A</label>
+        <input id="pAA2" type="text">
+
+        <label for="pZA">Prawd. wystąpienia B gdy prognoza B</label>
+        <input id="pBB2" type="text">
+
+        <button onClick="result2();">Oblicz</button>
+
+        <textarea id="result2" rows="3"></textarea>
+    </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

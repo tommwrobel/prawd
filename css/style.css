@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font: normal 16px Arial;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 400px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: solid 1px #e4e4e4;
+}
+
+input[type=text] {
+    padding: 4px 8px;
+    margin-bottom: 20px;
+}
+
+label {
+    text-align: left;
+}
+
+button {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
