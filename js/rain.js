@@ -1,3 +1,5 @@
+/*
+
 {
     let pA = 0.4;       //bedzie deszcz
     let pB = 1 - pA;    //brak deszczu
@@ -40,3 +42,4 @@
     console.log("Prawdopodobieństwo błędu prognozy: " + pE);
     console.log("**********************************************************");    
 }
+*/
