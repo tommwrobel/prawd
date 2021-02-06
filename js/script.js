@@ -21,11 +21,11 @@ function result() {
 }
 
 function update(element) {
-    document.getElementById("pZB").value = 1 - element.value;
+    document.getElementById("pZB").(value = 1 - element.value).toFixed(2);
 }
 
 function update2(element) {
-    document.getElementById("pB").value = 1 - element.value;
+    document.getElementById("pB").value = (1 - element.value).toFixed(2);
 }
 
 function result2() {
