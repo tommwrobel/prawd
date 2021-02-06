@@ -21,7 +21,7 @@ function result() {
 }
 
 function update(element) {
-    document.getElementById("pZB").(value = 1 - element.value).toFixed(2);
+    document.getElementById("pZB").value = (1 - element.value).toFixed(2);
 }
 
 function update2(element) {
