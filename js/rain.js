@@ -1,4 +1,4 @@
-/*
+
 
 {
     let pA = 0.4;       //bedzie deszcz
@@ -42,4 +42,3 @@
     console.log("Prawdopodobieństwo błędu prognozy: " + pE);
     console.log("**********************************************************");    
 }
-*/
